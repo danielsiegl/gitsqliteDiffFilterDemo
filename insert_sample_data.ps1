@@ -14,7 +14,8 @@ Write-Output "INSERT INTO products (name, price, category, in_stock) VALUES ('Wi
 # Insert sample data into orders
 Write-Output "INSERT INTO orders (customer_name, order_date, total_amount, status) VALUES ('Alice Smith', '2025-08-01', 49.95, 'pending'), ('Bob Jones', '2025-08-02', 39.98, 'shipped');" | sqlite3 smoketest.db
 
+
 # Insert sample data into test
-Write-Output "INSERT INTO test (id, name) VALUES (1, 'foo'), (2, 'bar');" | sqlite3 smoketest.db
+Write-Output "INSERT INTO test (id, name) VALUES (1, 'alpha'), (2, 'beta'), (3, 'gamma');" | sqlite3 smoketest.db
 
 Write-Output "Sample data inserted into smoketest.db."
