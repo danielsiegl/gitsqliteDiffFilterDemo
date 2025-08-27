@@ -29,6 +29,14 @@ Add the following section to your `.git/config` file:
     textconv = gitsqlite diff
 ```
 
+## .gitattributes configuration
+
+To enable the diff filter for SQLite add the following to your `.gitattributes` file:
+
+```
+*.db diff=gitsqlite
+```
+
 ## Run the sample
 
 1. Insert sample data into the database:
