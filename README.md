@@ -8,6 +8,9 @@ Open PowerShell and run:
 ```
 winget install gitsqlite
 ```
+For other operating systems see:
+https://github.com/danielsiegl/gitsqlite
+
 
 ## Configure git to use gitsqlite as a diff filter
 
