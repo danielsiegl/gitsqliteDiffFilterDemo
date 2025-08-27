@@ -18,7 +18,7 @@ https://github.com/danielsiegl/gitsqlite
 Run the following command in your repository:
 
 ```
-git config diff.gitsqlite.textconv "gitsqlite -log diff"
+git config diff.gitsqlite.textconv "gitsqlite diff"
 ```
 
 ### Option 2: Edit .git/config manually
@@ -26,7 +26,7 @@ Add the following section to your `.git/config` file:
 
 ```
 [diff "gitsqlite"]
-    textconv = gitsqlite -log diff
+    textconv = gitsqlite diff
 ```
 
 ## Run the sample
